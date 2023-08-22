@@ -1,2 +1,3 @@
 # SecurityAnalytics
-Broadcom/Symantec Security Analytics (SSA) Guides
+
+Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides.
