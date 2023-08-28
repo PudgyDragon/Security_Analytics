@@ -1,4 +1,4 @@
-# SecurityAnalytics
+# Security Analytics
 
 Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guides are based on personal experiences with the Security Analytics software. I hope that my troubleshooting saves someone else some headache.
 
