@@ -3,7 +3,7 @@
 Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guides are based on personal experiences with the Security Analytics software. I hope that my troubleshooting saves someone else some headache.
 
 # Table of Contents
-<tbody>
+<table>
   <tr>
     <td>
       <a href="https://github.com/PudgyDragon/SecurityAnalytics/blob/main/Installation%20Guide">Installation Guide</a>
@@ -28,4 +28,4 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
       <p>This guide was made for correcting an issue preventing Follow TCP Stream from working properly.</p>
     </td>
   </tr>
-</tbody>
+</table>
