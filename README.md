@@ -28,4 +28,12 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
       <p>This guide was made for correcting an issue preventing Follow TCP Stream from working properly.</p>
     </td>
   </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/SearchQueries.md">Search Queries</a>
+    </td>
+    <td>
+      <p>Common search queries used for Security Analytics best practice.</p>
+    </td>    
+  </tr>
 </table>
