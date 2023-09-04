@@ -14,7 +14,7 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PudgyDragon/SecurityAnalytics/blob/main/Internal%20Server%20Error">Internal Server Error</a>
+      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/Internal_Server_Error.md">Internal Server Error</a>
     </td>
     <td>
       <p>This guide was created after the appliance kept getting an Internal Server Error, and it was determined that the partitioning was not correct. This walks you through the correct partitioning and how to do it.</p>
