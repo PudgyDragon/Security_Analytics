@@ -14,6 +14,14 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/solera-iso-to-usb.sh">solera-iso-to-usb</a>
+    </td>
+    <td>
+      <p>Contents of the solera-iso-to-usb.sh file. It looks like it's no longer available on their website.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/Internal_Server_Error.md">Internal Server Error</a>
     </td>
     <td>
