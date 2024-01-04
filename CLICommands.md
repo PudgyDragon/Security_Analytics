@@ -1,0 +1,280 @@
+# CLI Commands
+Repository of commands and what they're used for in SSA.
+<table>
+  <tr>
+    <td>
+      <h2>Command</h2>
+    </td>
+    <td>
+      <h2>Use</h2>
+    </td>
+    <td>
+      <h2>sudo</h2>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>build-ds-capture</p>
+    </td>
+    <td>
+      <p>Constructions capture file system (partition, format, filesystem, fstab, mount, etc.). Ruby script. Uses a config file.</p>
+    </td>
+    <td>
+      <p>Yes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>build-ds-extras</p>
+    </td>
+    <td>
+      <p>Constructs database/home-apache for JBOD systems (format, filesystem, fstab, mount, etc.). Ruby script.</p>
+    </td>
+    <td>
+      <p>Yes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>build-ds-index</p>
+    </td>
+    <td>
+      <p>Constructs index file system (partition, format, filesystem, fstab, mount, etc.). Ruby script. Uses a config file. Replaces build-deepsee-index.</p>
+    </td>
+    <td>
+      <p>Yes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>carve-lsi</p>
+    </td>
+    <td>
+      <p>Sets up both capture and index on JBODs. For LSI-based systems (carve and other options). Ruby script. Valid in versions 4.1.2+ and later.</p>
+    </td>
+    <td>
+      <p>Yes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>csr.sh</p>
+    </td>
+    <td>
+      <p>Collects and concatenates log/config/status files into a single output tarball (Customer Service Report). Used for troubleshooting an appliance. BASH script</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsadduser</p>
+    </td>
+    <td>
+      <p>Creates a new user on the appliance.</p>
+    </td>
+    <td>
+      <p>Yes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dscapture</p>
+    </td>
+    <td>
+      <p>Instructs the appliance to capture network data.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsfilter</p>
+    </td>
+    <td>
+      <p>Displays filters assigned to a specified interface.</p>
+    </td>
+    <td>
+      <p>Yes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsfirewall</p>
+    </td>
+    <td>
+      <p>Toggles the firewall on and off.</p>
+    </td>
+    <td>
+      <p>Yes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsfsck</p>
+    </td>
+    <td>
+      <p>Check the DSFS file system and do limited repairs. Used when directed by Security Analytics Support.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dslc</p>
+    </td>
+    <td>
+      <p>Configures the logging mechanisms (syslog, SNMP, email).</p>
+    </td>
+    <td>
+      <p>Yes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dslogdump</p>
+    </td>
+    <td>
+      <p>Displays the events captured by the system log.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsmigratedata</p>
+    </td>
+    <td>
+      <p>Migrates capture data from one appliance to another.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsmon</p>
+    </td>
+    <td>
+      <p>Monitors the appliance in real time.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsmon-text</p>
+    </td>
+    <td>
+      <p>Text-based specialization of dsmon.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dspcapimport</p>
+    </td>
+    <td>
+      <p>Import PCAP files.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsregen</p>
+    </td>
+    <td>
+      <p>Retransmits captured network traffic from a virtual network interface to a physical network interface.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsrinfo</p>
+    </td>
+    <td>
+      <p>Lightweight utility for capture file system config data (number of slots, recycle head location, etc.)(.</p>
+    </td>
+    <td>
+      <p>Yes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsseed</p>
+    </td>
+    <td>
+      <p>Generate the weed file used for the license.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsstats</p>
+    </td>
+    <td>
+      <p>Saves statistical information to a specified file.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsview</p>
+    </td>
+    <td>
+      <p>Displays live statistics of your appliance</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsview-text</p>
+    </td>
+    <td>
+      <p>Text-based specialization of dsview.</p>
+    </td>
+    <td>
+      <p>No</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p>dsvmswitch</p>
+    </td>
+    <td>
+      <p>Switches VM capture configuration: 2 sizes (1 large, 1 small). For the Security Analytics Virtual Appliance only.</p>
+    </td>
+    <td>
+      <p>Yes</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <p></p>
+    </td>
+    <td>
+      <p></p>
+    </td>
+    <td>
+      <p></p>
+    </td>
+  </tr>
+  
+</table>
