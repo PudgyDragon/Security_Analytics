@@ -44,4 +44,12 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
       <p>Common search queries used for Security Analytics best practice.</p>
     </td>    
   </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/CLICommands.md">CLI Commands</a>
+    </td>
+    <td>
+      <p>Repository of commands used within Security Analytics with explanations of their funtion.</p>
+    </td>
+  </tr>
 </table>
