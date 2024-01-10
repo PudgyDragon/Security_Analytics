@@ -1,4 +1,4 @@
-# Troulbeshooting Internal Server Error
+# Troubleshooting Internal Server Error
 After a while, spikes of traffic would cause the `/var` partition to go above the 80% threshold and fill up to 100%, causing an
 Internal Server Error. There are several guides that may help you fix this issue, but none of them were ones that helped us
 to not get this error again. Here are some of the articles found:
