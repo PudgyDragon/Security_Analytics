@@ -30,7 +30,7 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PudgyDragon/SecurityAnalytics/blob/main/Follow%20TCP%20Stream">Follow TCP Stream</a>
+      <a href="https://github.com/PudgyDragon/SecurityAnalytics/blob/main/Follow%20TCP%20Stream">Follow TCP Stream Issues</a>
     </td>
     <td>
       <p>This guide was made for correcting an issue preventing Follow TCP Stream from working properly.</p>
