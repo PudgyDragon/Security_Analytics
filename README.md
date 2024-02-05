@@ -14,6 +14,14 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/SSA_Proxmox.md">Proxmox SSA Installation Guide</a>
+    </td>
+    <td>
+      <p>This is another installation guide for installing SSA software on Proxmox. You will need to use the original installation guide in my other repo as a supplement.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/solera-iso-to-usb.sh">solera-iso-to-usb</a>
     </td>
     <td>
