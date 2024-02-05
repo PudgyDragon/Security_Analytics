@@ -20,6 +20,8 @@ From here, follow the SSA installation guide on my other repo to create the inst
 Create a new proxmox VM with these settings:
 - BIOS - Default (SeaBIOS)
 - SCSI Controller - VirtIO SCSI
+- Network Device (net0) - virtio=<mac>, bridge=vmbr0
+- Network Device (net1) - virtio=<mac>, bridge=vmbr1
 
 Don't start the VM yet. Once the installation media is completed, run the following:
 ```
