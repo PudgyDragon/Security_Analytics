@@ -34,7 +34,7 @@ This will add the installation media as a drive to your newly created VM. In the
 For some reason, I wasn't able to login as the default user with the default credentials and kept getting "Authentication Error" even though they were typed correctly. So, to overcome this I had to do some fun stuff with a vulnerability that it appears SSA has. Restart the VM, and watch the screen until it gets to the grub menu where you will need to press `e`. Scroll down the screen until you see the line that has `ro` in it, and replace the line from `ro` to `rw init=/bin/bash`. Then run the command on the screen that allows you to boot the machine (it should be `Ctrl-x`). This will take you straight to a bash terminal as `root`, where you can then run the following:
 ```
 mount -n -remount,rw /
-passswd root
+passwd root
 # Change the password for root to whatever you want for now
 ```
 Now you have root access to the device before you're supposed to, and can make necessary changes.
