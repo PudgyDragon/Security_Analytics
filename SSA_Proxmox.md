@@ -38,6 +38,7 @@ passwd root
 # Change the password for root to whatever you want for now
 ```
 Now you have root access to the device before you're supposed to, and can make necessary changes.
+### Update: Turns out I just didn't have enough storage assigned when installing, which was causing the login issues.
 
 ## Setting Configs
 The next thing I had to do was call my good friend Slippy Penguin, because for some reason my ifconfig settings just weren't persisting. As soon as I called him, they magically worked. So if you have a friend like that, best to just have them on standby for good luck. Run the following commands to set your IP configurations:
