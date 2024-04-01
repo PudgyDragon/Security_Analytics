@@ -48,6 +48,15 @@ sudo route add default gw <default_gateway_ip>
 sudo ifconfig eth0 <ip_address> netmask <subnet_mask>
 # The configs for bond0 and eth0 should be the exact same.
 ```
+## MAC Address
+It's possible that your eth0 and bond0 MAC address aren't aligning properly. I'm not sure if it's an issue with Proxmox or just user error on my part. This was causing the link status for both interfaces to be down, not allowing us to have a web GUI. To fix this, you can replicate your desired MAC address to a couple different places. First make sure the MAC address in your Proxmox hardware settings is the one you want to use. Next, you will have to change the following two files to match:
+```
+vim /etc/sysconfig/network-scripts/ifcfg-eth0
+MACADDR=<Your Mac>
+vim /etc/sysconfig/network-scripts/ifcfg-bond0
+MACADDR=<Your Mac>
+```
+If `HWADDR` exists in either file, replace it with `MACADDR` instead.
 
 ## Finishing Up
 That should do it! You should be able to login to your device through the management IP (the bond0 that you set) from your browser. If you're unable to, you may need to make sure you didn't set the Network Device to have a firewall. Luckily, you also now have root access to do any troubleshooting that you couldn't do with the default credentials. Have fun!
