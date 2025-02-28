@@ -1,4 +1,10 @@
-# Short guide for adding capture storage if you've added an external storage device to the system
+# Extra Storage Array
+This is a short guide for adding capture storage if you've added an external storage device to the system
+
+## Note before you start
+If you've added an extra storage array to the device, make sure that you configure the RAID for it and create a new virtual disk using the physical disks. I should probably write up a guide for SSA RAID configuration. Some day.
+
+## Walkthrough
 
 View your volumes to see what the new storage is labeled as
 ```
