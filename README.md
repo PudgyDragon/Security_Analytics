@@ -3,6 +3,7 @@
 Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guides are based on personal experiences with the Security Analytics software. I hope that my troubleshooting saves someone else some headache.
 
 # Table of Contents
+## Guides
 <table>
   <tr>
     <td>
@@ -22,12 +23,17 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
   </tr>
   <tr>
     <td>
-      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/solera-iso-to-usb.sh">solera-iso-to-usb</a>
+      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/vacuumdb.md">Vacuum DB</a>
     </td>
     <td>
-      <p>Contents of the solera-iso-to-usb.sh file. It looks like it's no longer available on their website.</p>
+      <p>Quick and easy way of using vacuumdb on Security Analytics.</p>
     </td>
   </tr>
+</table>
+
+## Troubleshooting
+
+<table>
   <tr>
     <td>
       <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/Internal_Server_Error.md">Internal Server Error</a>
@@ -44,6 +50,19 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
       <p>This guide was made for correcting an issue preventing Follow TCP Stream from working properly.</p>
     </td>
   </tr>
+</table>
+
+## Extras
+
+<table>
+  <tr>
+    <td>
+      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/solera-iso-to-usb.sh">solera-iso-to-usb</a>
+    </td>
+    <td>
+      <p>Contents of the solera-iso-to-usb.sh file. It looks like it's no longer available on their website.</p>
+    </td>
+  </tr>
   <tr>
     <td>
       <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/SearchQueries.md">Search Queries</a>
@@ -58,14 +77,6 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
     </td>
     <td>
       <p>Repository of commands used within Security Analytics with explanations of their funtion.</p>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/vacuumdb.md">Vacuum DB</a>
-    </td>
-    <td>
-      <p>Quick and easy way of using vacuumdb on Security Analytics.</p>
     </td>
   </tr>
 </table>
