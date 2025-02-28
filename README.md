@@ -23,6 +23,14 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/Extra_Storage.md">New Storage Device Added</a>
+    </td>
+    <td>
+      <p>This is a guide for extending your storage into a new physical volume that you've added to your SSA device.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/SSA_Proxmox.md">Proxmox SSA Installation Guide</a>
     </td>
     <td>
