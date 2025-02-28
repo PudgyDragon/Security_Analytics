@@ -15,6 +15,14 @@ Repository for Bluecoat/Symantec/Broadcom Security Analytics (SSA) guides. Guide
   </tr>
   <tr>
     <td>
+      <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/eth0_Mapping.md">Mapping eth0</a>
+    </td>
+    <td>
+      <p>This is a guide for mapping eth0 (your management interface) to another port on your NIC.</p>
+    </td>
+  </tr>
+  <tr>
+    <td>
       <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/SSA_Proxmox.md">Proxmox SSA Installation Guide</a>
     </td>
     <td>
