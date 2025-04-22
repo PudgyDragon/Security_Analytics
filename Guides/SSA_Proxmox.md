@@ -1,3 +1,5 @@
+# * * * Updates coming * * *
+
 # SSA On Proxmox Guide
 I wanted to test a few things with SSA and see if it was possible to get it running on Proxmox. 
 
