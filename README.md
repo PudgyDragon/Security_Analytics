@@ -20,6 +20,12 @@
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/Guides/STIG_2026.md">STIG Guide</a>
+      </td>
+      <td>Security Analytics STIG guide to help you through.</td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/Guides/eth0_Mapping.md">Mapping eth0</a>
       </td>
       <td>This is a guide for mapping eth0 (your management interface) to another port on your NIC.</td>
