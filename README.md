@@ -14,6 +14,12 @@
     </tr>
     <tr>
       <td>
+        <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/Guides/Upgrade.md">Upgrade Guide</a>
+      </td>
+      <td>Quick and dirty guide for upgrading your Security Analytics device.</td>
+    </tr>
+    <tr>
+      <td>
         <a href="https://github.com/PudgyDragon/Security_Analytics/blob/main/Guides/SmartCardAuth.md">Smart Card Authentication</a>
       </td>
       <td>Short-ish guide for enabling smart card authentication on your Security Analytics appliance.</td>
