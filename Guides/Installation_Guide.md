@@ -9,6 +9,7 @@ the .iso file and the solera script file to the /home directory. Once the files 
 external hard drive. You can find the solera script file here at the bottom of the page:
 
 - https://knowledge.broadcom.com/external/article/168296
+- **NOTE** - They removed the script, but it can be found in my repositories
 
 Ensure that syslinux, dosftools, and rsync are installed by running the following commands:
 ```
